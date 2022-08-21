@@ -7,7 +7,7 @@ const App = () => {
   // const x=true;
 
   return (
-    <div className='App'>
+    <div className='container'>
       {/* <h1>Hello From React</h1>
       <h2>Hi {x ? 'Yes':'No'}</h2> */}
       <Header/>

@@ -3,15 +3,15 @@ import PropTypes from 'prop-types';
 const Header = ({title}) => {
   return (
     <header>
-      <h1 style={headingStyle}>{title}</h1>
+      <h1 className='header'>{title}</h1>
     </header>
   )
 }
 
-const headingStyle={
-  color:'red',
-  backgroundColor:'black'
-}
+// const headingStyle={
+//   color:'red',
+//   backgroundColor:'black'
+// }
 
 Header.defaultProps={
   title:'Task Tracker'
